@@ -12,7 +12,7 @@ int println(const char *format, ...) { return printf("%s\n", format); }
 //--------------------------------------------------------------
 int main() {
   while (1) {
-    println("Hello world!");
+    println("uwu");
   }
 
   return 0;
