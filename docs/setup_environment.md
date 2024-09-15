@@ -32,13 +32,10 @@ sudo mkdir /usr/local/ps2dev
 sudo chmod 777 /usr/local/ps2dev
 
 # Clone and build the ps2toolchain and ps2sdk.
-cd $HOME && git clone https://github.com/ps2dev/ps2dev.git ps2dev && cd ps2dev && ./build-all.sh
-```
+git clone https://github.com/ps2dev/ps2dev.git ps2dev
+cd ps2dev
+./build-all.sh
 
-### (Optional) Download and install PS2ETH
-
-PS2ETH is a library that allows the PS2 to connect to the internet.
-
-```bash
-cd $HOME && git clone https://github.com/ps2dev/ps2eth.git ps2eth && cd ps2eth && make clean all install && cd $HOME
+# Optional:
+./build-extra.sh
 ```

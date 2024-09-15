@@ -8,13 +8,8 @@ For a guide on how to setup the environment, please refer to the [docs/setup_env
 
 ## 📦 Build
 
-You can build the sample running the `./scripts/build.sh` script.
-
-Otherwise, you can build it manually by running the following commands:
-
 ```bash
-make
-make clean
+make clean && make
 ```
 
 Output files will be located in the `build` directory.
@@ -38,5 +33,5 @@ Or buy me a coffeelatte 🙌
 
 ## 📝 License
 
-Copyright © 2023 [Sammwy](https://github.com/sammwyy).  
+Copyright © 2024 [Sammwy](https://github.com/sammwyy).  
 This project is [MIT](LICENSE) licensed.
